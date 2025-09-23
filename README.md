@@ -1,46 +1,58 @@
-Simple Data Warehouse with Python, SQLite, and Pandas
+Aime Muaganga - 232
 
-This Jupyter Notebook demonstrates how to build a simple data warehouse using SQLite for storage and Pandas for data manipulation.
-It also includes functions for data visualization (via Matplotlib & Seaborn) and basic exploratory data analysis (EDA).
+## Simple Data Warehouse with Python
 
-🚀 Features
+This notebook demonstrates how to build a basic data warehouse using Python, SQLite, and Pandas.
+It walks through database connectivity, storing data from DataFrames, performing analysis, and visualizing results.
 
-Create and connect to an SQLite database
+### Features
 
-Execute SQL queries
+Connect to an SQLite database
 
-Fetch and display data from the database
+Execute SQL queries and fetch results
 
-Create tables directly from Pandas DataFrames
+Load Pandas DataFrames into database tables
 
-Perform basic exploratory data analysis
+Perform basic data analysis (head, info, describe, missing values)
 
-Visualize data using bar, line, and scatter plots
+Visualize data using Matplotlib and Seaborn
 
-🛠️ Requirements
+### Requirements
 
-Install dependencies with:
+Make sure you have the following installed:
 
-pip install pandas matplotlib seaborn jupyter
+pip install pandas matplotlib seaborn numpy
 
-
-SQLite3 comes bundled with Python by default.
-
-▶️ Usage
+### Usage
 
 Open the notebook in Jupyter:
 
-jupyter notebook data_warehouse.ipynb
+jupyter notebook warehouse.ipynb
 
 
-Run the cells step by step. The notebook will:
+Run the cells step by step.
 
-Create a database (data_warehouse.db)
+The notebook will:
 
-Insert a sample employee dataset into a table
+Create a sample dataset (employees table)
 
-Fetch and display stored records
+Store it in an SQLite database (data_warehouse.db)
 
-Perform basic analysis (head, info, summary, missing values)
+Fetch and display records
 
-Generate a bar chart of employee salaries
+Perform basic data analysis
+
+Visualize employee salaries in a bar chart
+
+### Outputs
+
+#### Console Output: Dataset preview, statistics, and fetched rows.
+
+<img width="500px" alt="image" src="https://github.com/user-attachments/assets/2ddec6dc-b80f-4be8-9d41-5ca1f10e8cf7" />
+
+<img width="500px" alt="image" src="https://github.com/user-attachments/assets/e558acbb-9efd-4e0d-9d97-13ad3941444d" />
+
+
+#### Visualization: Salary distribution bar chart.
+
+<img width="500px" alt="image" src="https://github.com/user-attachments/assets/7c0d57c6-7321-4a11-abaf-f786480e0eef" />
